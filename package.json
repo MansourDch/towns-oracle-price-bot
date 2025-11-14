@@ -1,0 +1,23 @@
+{
+  "name": "towns-oracle-price-bot",
+  "version": "1.0.0",
+  "description": "Towns Protocol Chainlink Oracle Price Bot",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@towns-protocol/towns-types": "latest",
+    "@towns-protocol/towns-sdk": "latest",
+    "viem": "^1.0.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0",
+    "tsx": "^3.0.0"
+  }
+}
